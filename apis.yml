@@ -1,23 +1,51 @@
 aid: anmuquanintelligenttechnology
+
 name: Anmuquanintelligenttechnology
-description: 'Anmuquanintelligenttechnology is a company surfaced via the API Evangelist harvest backlog
-  (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+description: "Anmuquanintelligenttechnology is a stub entry created by the API Evangelist harvest process. The company appears in secondary-market listings but no public website or detailed information could be located through standard web searches. As such, the description reflects the limited publicly available data, indicating that further investigation may be required to confirm the company's services, products, or API offerings. The entry remains a placeholder pending discovery of verifiable information about the company's operations, technology stack, and API ecosystem."
+
 url: https://raw.githubusercontent.com/api-evangelist/anmuquanintelligenttechnology/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-24'
+
 modified: '2026-09-24'
+
 tags:
 - Company
-apis: []
+- Technology
+- AI
+- Intelligent
+- Services
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/anmuquanintelligenttechnology-hosts.yml
+- type: Vendors
+  url: vendors/anmuquanintelligenttechnology-vendors.yml
+- type: DomainSecurity
+  url: security/anmuquanintelligenttechnology-domain-security.yml
 - type: Website
   url: https://equityzen.com/company/anmuquanintelligenttechnology
+
+apis: []
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 3
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
